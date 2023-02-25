@@ -16,7 +16,7 @@
 </head>
 <body>
     <h1>Qual a sua nacionalidade?</h1>
-    <legend>Digite o seu pais de origem</legend>
+    <legend>Digite o seu país de origem</legend>
     <input type="text" name="txtpais" id="txtpais" >
     <input type="button" value="Verificar" onclick="verificar()">
     <div id="res">
@@ -27,11 +27,11 @@
             var txtp = window.document.querySelector('input#txtpais')
             var res = window.document.querySelector('div#res')
             var pais = (txtp.value)
-            res.innerHTML = `Vivendo em ${pais}`
+            res.innerHTML = `<p>Nasci no(a) ${pais}</p>`
             if (pais == Brasil){
-                res.innerHTML += '<p>Você é brasileiro!</p>'
+                res.innerHTML += `<p>Você é brasileiro!</p>`
             } else {
-                res.innerHTML += '<p>Você é estrangeiro!</p>'
+                res.innerHTML += `<p>Você é estrangeiro!</p>`
             }
             
             
