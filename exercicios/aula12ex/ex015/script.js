@@ -20,7 +20,7 @@ function verificar() {
             } else if (idade < 21) {
                 //jovem
                 img.setAttribute('src', 'imagens/jovem-homem.png'  )
-            } else if (idade < 50) {
+            } else if (idade < 60) {
                 //adulto
                 img.setAttribute('src', 'imagens/homem.png')
             } else {
@@ -35,7 +35,7 @@ function verificar() {
             } else if (idade < 21){
                 //jovem
                 img.setAttribute('src', 'imagens/jovem-mulher.png')
-            } else if (idade < 50) {
+            } else if (idade < 60) {
                 //adulta
                 img.setAttribute('src', 'imagens/mulher.png')
             } else {
