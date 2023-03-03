@@ -15,10 +15,10 @@
         
         button {
             padding: 30px;
-            font-size: 13pt;
+            font-size: 12pt;
         }
         section {
-            padding: 5px;
+            padding: 0px;
         }
     </style>
 </head>
@@ -26,7 +26,7 @@
     <h1>Trabalhando com números</h1>
     <button onclick="calcular()">Clique para calcular</button>
     <section id="res">
-        <p>Aqui vai aparecer o resultado</p>
+        <p>O resultado vem aqui...</p>
     </section>
     
     <script>
@@ -37,7 +37,7 @@
             let res = window.document.getElementById('res')
             let m = n * 2
             let d = n / 2
-            res.innerHTML  = (`O dobro de ${n} é ${m} e a metade é ${d}`)
+            res.innerHTML  = (`O dobro de ${n} é ${m} e a metade é ${d}!`)
         c++
         }
     </script>
