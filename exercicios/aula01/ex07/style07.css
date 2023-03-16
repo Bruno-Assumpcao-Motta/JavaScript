@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+button {
+    font-size: 16px;
+    padding: 30px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#linha-horizontal {
+    width: 800px;
+    border: 0.3px solid rgba(0, 0, 0, 0.447);
+}
